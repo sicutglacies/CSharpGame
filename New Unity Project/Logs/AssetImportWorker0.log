@@ -1,0 +1,77 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51101
+Successfully changed project path to: /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/New Unity Project
+/Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-04-11 21:55:39.183 Unity[56982:2454169] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-04-11 21:55:39.183 Unity[56982:2454169] Metal devices available: 1
+2021-04-11 21:55:39.183 Unity[56982:2454169] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-04-11 21:55:39.183 Unity[56982:2454169] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56982
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000715 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 94.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.009 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.3 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2200.
+Total: 2.308636 ms (FindLiveObjects: 0.239568 ms CreateObjectMapping: 0.123421 ms MarkObjects: 1.876536 ms  DeleteObjects: 0.067621 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/CU2Cs2eWEAA0nCI.png
+  artifactKey: Guid(69b0ce799ec444c5fb383cde61573fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CU2Cs2eWEAA0nCI.png using Guid(69b0ce799ec444c5fb383cde61573fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35707c8f3c5fa313c9ef6db0954071c') in 1.133994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001519 seconds.
+  path: Assets/castle.png
+  artifactKey: Guid(4c50e81849db442b89a629bf4ff07c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/castle.png using Guid(4c50e81849db442b89a629bf4ff07c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8821ee4853a78a793f46922ac0923b') in 0.014022 seconds 
