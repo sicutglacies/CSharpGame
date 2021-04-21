@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class SpanGridScript : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class SpanGridScript : MonoBehaviour
                 PickAndSpawn(spawnPosition, Quaternion.identity);
                 void PickAndSpawn(Vector3 positionToSpawn, Quaternion rotationToSpawn)
                 {
-                    int randomIndex = Random.Range(0, itemsToPickFrom.Length);
+                    int randomIndex = UnityEngine.Random.Range(0, itemsToPickFrom.Length);
                     GameObject clone = Instantiate(itemsToPickFrom[randomIndex], positionToSpawn, rotationToSpawn);
                 }
             }
