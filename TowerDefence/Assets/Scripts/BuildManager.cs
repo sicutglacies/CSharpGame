@@ -2,27 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+///   Static builder for each node.
+/// </summary>
 public class BuildManager : MonoBehaviour
 {
-    public static BuildManager instanceOfManager;
-    public GameObject defaultPrefab;
+    public static BuildManager Instance;
+    public GameObject DefaultObject;
+    public GameObject WishedObject { set; get; }
 
-    private GameObject objectToPlaceOn;   
+    void Start()
+    {
+        WishedObject = DefaultObject;
+    }
     void Awake()
     {
-        instanceOfManager = this;
+        Instance = this;
     }
-
-    private void Start()
-    {
-        objectToPlaceOn = defaultPrefab;
-    }
-
-    public GameObject BuildThis()
-    {
-        return objectToPlaceOn;
-    }
-
-
 
 }

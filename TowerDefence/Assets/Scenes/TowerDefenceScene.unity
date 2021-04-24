@@ -155,10 +155,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemsToPickFrom:
   - {fileID: 4867986193440564762, guid: 7746a7c7ef503204f93f284f28ad47fa, type: 3}
-  gridx: 16
-  gridy: 16
-  gridSpacingOffset: 5
-  gridorigin: {x: 0, y: 0, z: 0}
+  GridX: 20
+  GridY: 20
 --- !u!4 &308381681
 Transform:
   m_ObjectHideFlags: 0
@@ -185,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043312eeb61dcb445b539d68f4d278da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultPrefab: {fileID: 919132149155446097, guid: 38f6ddc637a559140978ae433564e2a8, type: 3}
+  DefaultObject: {fileID: 919132149155446097, guid: c73904f5568fd944abfc44249dc215ec, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

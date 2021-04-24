@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637544390817968731
+      ticks: 637546312850621137
     m_Hash: 455018041
   m_LockFileStatus:
     m_FilePath: F:/CSharpGame/TowerDefence/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637544390817978952
+      ticks: 637546312850631190
     m_Hash: 3021215987
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -814,7 +814,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: tool
+      type: 
       description: "Visual Scripting, previously known as BOLT, is an alternative
         workflow to design behaviours. Instead of the classic method of writing a
         C# script, visual scripting offers a way to design behaviours intuitively
