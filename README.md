@@ -1,6 +1,10 @@
 # CSharpGame
 Joint project (game) for C# course at Ural Federal University
 ## List of dates and changes
+
+### 19.04
+ - Created **generating script** for the field
+ 
 ### 21.04: 
 - Added an ability to **place objects** and **visualization of "placeability"**
 
@@ -10,4 +14,4 @@ Joint project (game) for C# course at Ural Federal University
 
 ### 25.04:
 - Added **path generation** script. Random generation will be available in the future
-- Added **Turret class** and model. It can now **react on** the objects with **Enemies** tag
+- Added **Turret class** and model. It can now **react on** the objects with **Enemy** tag
