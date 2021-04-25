@@ -13,7 +13,7 @@ public class TurretMaker : MonoBehaviour
 
     void CreateTurret()
     {
-        Instantiate(turret, turret.transform.position, Quaternion.identity);
+        Instantiate(turret, turret.transform.position + new Vector3(0, 1.5f, 0), Quaternion.identity);
     }
 
 
