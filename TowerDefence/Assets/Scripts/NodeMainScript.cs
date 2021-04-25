@@ -42,7 +42,6 @@ public class NodeMainScript : MonoBehaviour
                  //TO DO in a form of bubble message
         }
         var tempObj = BuildManager.Instance.WishedObject;
-        placedOn = Instantiate(tempObj, transform.position, transform.rotation);
-    
+        placedOn = Instantiate(tempObj, transform.position + new Vector3 { x = 0, y = 0.5f, z = 0}, transform.rotation);
     }
 }
