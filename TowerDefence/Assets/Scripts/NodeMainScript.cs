@@ -8,8 +8,10 @@ using UnityEngine;
 /// </summary>
 public class NodeMainScript : MonoBehaviour
 {
+    public int ID;
     public Color defaultColor;
     public Color changedColor;
+    public GameObject thisObject;
 
     private Renderer quickRend;
     private GameObject placedOn;
@@ -22,6 +24,7 @@ public class NodeMainScript : MonoBehaviour
         ColorUtility.TryParseHtmlString("#222525", out changedColor);
 
         quickRend.material.color = defaultColor;
+        thisObject = this.gameObject;
     }
 
     void OnMouseEnter()

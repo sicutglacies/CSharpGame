@@ -30,7 +30,7 @@ public class SpanGridScript : MonoBehaviour
         for (int x = 0; x < GridX; x++)
         { 
             for (int y = 0; y < GridY; y++)
-            {      
+            { 
                 var spawnPosition = new Vector3 (x * GridSpacingOffset, 0, y * GridSpacingOffset) + GridZeroPoint;
                 PickAndSpawn(spawnPosition, Quaternion.identity, index);
                 index++;
@@ -42,5 +42,7 @@ public class SpanGridScript : MonoBehaviour
         int id = 0;
         if (hashSet.Contains(index)) id = 1;
         var clone = Instantiate(itemsToPickFrom[id], positionToSpawn, rotationToSpawn);
+        if (id == 0) clone.GetComponent<NodeMainScript>().ID = index;
+        else clone.GetComponent<pathScript>().ID = index;
     }
 }        
