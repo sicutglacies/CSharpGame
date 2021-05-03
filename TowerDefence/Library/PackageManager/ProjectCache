@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637544387620000000
+      ticks: 637549633630000000
     m_Hash: 455018041
   m_LockFileStatus:
     m_FilePath: /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637544387620000000
+      ticks: 637549633630000000
     m_Hash: 3021215987
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
