@@ -1,7 +1,7 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -12,97 +12,1783 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54408
+53771
 Successfully changed project path to: /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence
 /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 92.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-2021-04-26 19:36:01.574 Unity[51804:1699318] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-04-26 19:36:01.574 Unity[51804:1699318] Metal devices available: 1
-2021-04-26 19:36:01.574 Unity[51804:1699318] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-04-26 19:36:01.575 Unity[51804:1699318] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+GfxDevice: creating device client; threaded=0
+2021-05-04 14:06:07.952 Unity[8120:333151] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-05-04 14:06:07.952 Unity[8120:333151] Metal devices available: 1
+2021-05-04 14:06:07.952 Unity[8120:333151] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-05-04 14:06:07.952 Unity[8120:333151] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
-Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002118 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003050 seconds.
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 93.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 81.86 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.235 seconds
+- Completed reload, in  2.446 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006281 seconds.
+Registered in 0.007286 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e42b9000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39e2000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39e2000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e47da000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39e2000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4935000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e47da000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39e2000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4144000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a2f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e001f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4b2c000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.720 seconds
+- Completed reload, in  1.511 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.3 MB.
-System memory in use after: 179.4 MB.
+Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3136.
-Total: 3.362293 ms (FindLiveObjects: 0.260653 ms CreateObjectMapping: 0.141822 ms MarkObjects: 2.858714 ms  DeleteObjects: 0.099701 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3122.
+Total: 2.655994 ms (FindLiveObjects: 0.416609 ms CreateObjectMapping: 0.190123 ms MarkObjects: 1.941906 ms  DeleteObjects: 0.104784 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/TurretScript.cs
-  artifactKey: Guid(4729b27845fd8489e84db02832a1fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TurretScript.cs using Guid(4729b27845fd8489e84db02832a1fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f958ff9ff56ef7553142916f019b8c0') in 0.922580 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3136.
-Total: 24.400572 ms (FindLiveObjects: 0.863209 ms CreateObjectMapping: 0.216489 ms MarkObjects: 23.235043 ms  DeleteObjects: 0.084639 ms)
+  path: Assets/Prefabs/nodePref.prefab
+  artifactKey: Guid(7746a7c7ef503204f93f284f28ad47fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/nodePref.prefab using Guid(7746a7c7ef503204f93f284f28ad47fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52b6b21bd87b77a87caa390e1b7885d') in 1.199074 seconds
+  Import took 1.205045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 183.387469 seconds.
-  path: Assets/Scripts/SpanGridScript.cs
-  artifactKey: Guid(e0a804cc596f0ee4e9ae8ded2dcc3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpanGridScript.cs using Guid(e0a804cc596f0ee4e9ae8ded2dcc3fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a9b64dcd4f577390ccd0faab4bded1') in 0.011922 seconds 
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/pathPref.prefab
+  artifactKey: Guid(579623a5e3254ae49b97661f25d07e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/pathPref.prefab using Guid(579623a5e3254ae49b97661f25d07e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdca3da334da5617bf91a0dfce22926') in 0.011051 seconds
+  Import took 0.015674 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007168 seconds.
+Registered in 0.009828 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e42e9000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e593cc00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a54000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.4 MB.
+System memory in use after: 183.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 3.079414 ms (FindLiveObjects: 0.396484 ms CreateObjectMapping: 0.161467 ms MarkObjects: 2.426999 ms  DeleteObjects: 0.092788 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.370992 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb575844b897541d47f274cb1efd2f8b') in 0.136595 seconds
+  Import took 0.142853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.552697 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4ec7a83e98f36475a602d8ba718a34') in 0.043446 seconds
+  Import took 0.051248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.941507 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4359f2fe593296d66c7e244010628238') in 0.026009 seconds
+  Import took 0.031902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.563013 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586938ab73c647b9771862425e149f8f') in 0.036844 seconds
+  Import took 0.043113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.975092 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32ed7ae969a964c945d412ec79e2803') in 0.031205 seconds
+  Import took 0.037252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.891443 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50a92764b2bb3e2f9f4a087b137a382') in 0.029269 seconds
+  Import took 0.035237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.720366 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c93cd1b632a61cc805c6178fde80ae6') in 0.027952 seconds
+  Import took 0.034320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.561858 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e8fe794b9933ead51e30f9a268f3ea') in 0.031777 seconds
+  Import took 0.038387 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002258 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4c3e000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0de740e00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.7 MB.
+System memory in use after: 183.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3137.
+Total: 3.051786 ms (FindLiveObjects: 0.443232 ms CreateObjectMapping: 0.275348 ms MarkObjects: 2.268057 ms  DeleteObjects: 0.062188 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.987548 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91023ceceb690dd211f8ae932a3f28a') in 0.088793 seconds
+  Import took 0.095085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.437305 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0973dafc52497292a5401a0ac2127272') in 0.022519 seconds
+  Import took 0.030346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.989449 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b53dc0ee0a994f53c553cd7343a2118') in 0.017296 seconds
+  Import took 0.023571 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002768 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4b14000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c25000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c25000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c25000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c25000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c25000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0dee76800 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a9f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.541 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.0 MB.
+System memory in use after: 184.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3141.
+Total: 3.145005 ms (FindLiveObjects: 0.460533 ms CreateObjectMapping: 0.231597 ms MarkObjects: 2.362811 ms  DeleteObjects: 0.088558 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.846469 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf8c62cc125604900babc6186603705') in 0.093335 seconds
+  Import took 0.100725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.932835 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabc162c2e851e213ccb8047b658c38b') in 0.034229 seconds
+  Import took 0.039847 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008429 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4c38000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e5b1b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4af6000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.416 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.3 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3145.
+Total: 3.061466 ms (FindLiveObjects: 0.440316 ms CreateObjectMapping: 0.223335 ms MarkObjects: 2.328397 ms  DeleteObjects: 0.067043 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4bbf000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e542b200 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ad7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.5 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 2.687025 ms (FindLiveObjects: 0.371034 ms CreateObjectMapping: 0.160504 ms MarkObjects: 2.086915 ms  DeleteObjects: 0.065589 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.542985 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825f2ad433dcb8f364e5a346e6f1c5c3') in 0.132138 seconds
+  Import took 0.138224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.372578 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89005da6651d19476e08ef334ca88b') in 0.029337 seconds
+  Import took 0.035489 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008559 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4b0f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e714aa00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.349 seconds
+- Completed reload, in  1.165 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.7 MB.
+System memory in use after: 184.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3152.
+Total: 3.225892 ms (FindLiveObjects: 0.397753 ms CreateObjectMapping: 0.193931 ms MarkObjects: 2.562269 ms  DeleteObjects: 0.070146 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.621194 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b59af9089ee0fed4f3f656056a0dee') in 0.084381 seconds
+  Import took 0.091556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.100159 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269dd52af6b52f59472666c1f4115828') in 0.091660 seconds
+  Import took 0.098139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.142274 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a305ab0459f6d3390a0a3a893d3ca9fe') in 0.029730 seconds
+  Import took 0.038858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.602402 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465b260a71f068f1c05194acb49c8c30') in 0.023932 seconds
+  Import took 0.032076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.043502 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1c9911aca8d68a2b4db5e364719a64') in 0.035084 seconds
+  Import took 0.042120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.192868 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dbcd598ce8e8f03cc27702871cd67a') in 0.029519 seconds
+  Import took 0.039490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.066793 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f137d3aa06a94fa2318412842cef8614') in 0.036836 seconds
+  Import took 0.042654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.992233 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337b90e8792fcabc88dc32c47165e8f8') in 0.030391 seconds
+  Import took 0.036971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.803730 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c271ea51cb144890354a86b8aa614b') in 0.034229 seconds
+  Import took 0.041846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.662608 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9788d23885d119a2688e2f7f67bb86') in 0.033242 seconds
+  Import took 0.042453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.561076 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6804de2f1279e4be9c9310d24d8fdb41') in 0.026491 seconds
+  Import took 0.033128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.617036 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cae30b956f74c8fb5ef051810bf103') in 0.031893 seconds
+  Import took 0.038901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.840682 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdf38fc650f5663bd900bd2ad073fcd') in 0.029879 seconds
+  Import took 0.036617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.878057 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b8aa45b8611e1480e4dc49f1398a7a') in 0.041418 seconds
+  Import took 0.047594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.591879 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96145efba192f929dd3db20ac8f1afc2') in 0.030084 seconds
+  Import took 0.038690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.808193 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bd2cb0cbe9c9516312f159ba6401e4') in 0.030759 seconds
+  Import took 0.037302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.005720 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca37b7191135465360c682a6137c55a') in 0.041070 seconds
+  Import took 0.048361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.483761 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a03c4f8767344a9be8212bea12c2d8') in 0.042105 seconds
+  Import took 0.049568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.117733 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a29ac3de8fe07565770a486a225ff91') in 0.033264 seconds
+  Import took 0.041499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.616668 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e717d03f91ac3ff3f455bdb45851d7a') in 0.016587 seconds
+  Import took 0.022055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.815764 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bcd0c735b07e9edcc3c5a2ac15a145') in 0.034655 seconds
+  Import took 0.042593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.807612 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f830684146e93ca30482c58d09d7a5a6') in 0.042821 seconds
+  Import took 0.049730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.017281 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336ce4123ed4a6958b26966c7b76ac5e') in 0.036537 seconds
+  Import took 0.044261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.395329 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2efa4ccaf3b894f856cb6ba2a28b2c') in 0.033008 seconds
+  Import took 0.039139 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002123 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4af6000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4bd3000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4bd3000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4bd3000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4bd3000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4bd3000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e7073c00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a1b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 2.186755 ms (FindLiveObjects: 0.329871 ms CreateObjectMapping: 0.154514 ms MarkObjects: 1.647084 ms  DeleteObjects: 0.053699 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009855 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4aba000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e5ec6e00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a72000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 186.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3159.
+Total: 3.813683 ms (FindLiveObjects: 0.509536 ms CreateObjectMapping: 0.191945 ms MarkObjects: 2.999461 ms  DeleteObjects: 0.111105 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4bb1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0dee2ee00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ad7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2664 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.8 MB.
-System memory in use after: 184.0 MB.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.0 MB.
+System memory in use after: 186.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3139.
-Total: 2.496125 ms (FindLiveObjects: 0.226881 ms CreateObjectMapping: 0.146712 ms MarkObjects: 2.062342 ms  DeleteObjects: 0.058172 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 2.436379 ms (FindLiveObjects: 0.317711 ms CreateObjectMapping: 0.151710 ms MarkObjects: 1.881021 ms  DeleteObjects: 0.084688 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003441 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4b39000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e56c4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4bb1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.3 MB.
+System memory in use after: 186.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3165.
+Total: 2.513871 ms (FindLiveObjects: 0.530984 ms CreateObjectMapping: 0.133839 ms MarkObjects: 1.781095 ms  DeleteObjects: 0.062703 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4b75000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e6edbe00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ad7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3168.
+Total: 3.361679 ms (FindLiveObjects: 0.600447 ms CreateObjectMapping: 0.371115 ms MarkObjects: 2.318341 ms  DeleteObjects: 0.070214 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002532 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4c04000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a19000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e1ec4800 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4afc000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.6 MB.
+System memory in use after: 186.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3171.
+Total: 4.866026 ms (FindLiveObjects: 0.807770 ms CreateObjectMapping: 0.311362 ms MarkObjects: 3.629066 ms  DeleteObjects: 0.114786 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002229 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4be4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c1a000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c1a000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c1a000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c1a000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c1a000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e72c1800 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a9f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.8 MB.
+System memory in use after: 187.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3174.
+Total: 3.592541 ms (FindLiveObjects: 0.787529 ms CreateObjectMapping: 0.290211 ms MarkObjects: 2.421222 ms  DeleteObjects: 0.091767 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4bfa000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e72b0c00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4af6000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.0 MB.
+System memory in use after: 187.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3177.
+Total: 2.092897 ms (FindLiveObjects: 0.284864 ms CreateObjectMapping: 0.117349 ms MarkObjects: 1.637705 ms  DeleteObjects: 0.052057 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003074 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4be4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0df94be00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ad7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3180.
+Total: 3.178211 ms (FindLiveObjects: 0.394886 ms CreateObjectMapping: 0.409809 ms MarkObjects: 2.293973 ms  DeleteObjects: 0.076874 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4b0f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0de6f3200 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.270 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.4 MB.
+System memory in use after: 187.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3183.
+Total: 2.550543 ms (FindLiveObjects: 0.380363 ms CreateObjectMapping: 0.127761 ms MarkObjects: 1.963985 ms  DeleteObjects: 0.077091 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003249 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4af6000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4cda000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4cda000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4cda000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4cda000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4cda000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0de8c1600 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a1b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.6 MB.
+System memory in use after: 187.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3186.
+Total: 2.767375 ms (FindLiveObjects: 0.389416 ms CreateObjectMapping: 0.179794 ms MarkObjects: 2.126057 ms  DeleteObjects: 0.070458 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4aba000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e15f0e00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a72000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.8 MB.
+System memory in use after: 187.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3189.
+Total: 2.539146 ms (FindLiveObjects: 0.347992 ms CreateObjectMapping: 0.190460 ms MarkObjects: 1.937708 ms  DeleteObjects: 0.061833 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002861 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4c78000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e1eaca00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ad7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.0 MB.
+System memory in use after: 188.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3192.
+Total: 2.082517 ms (FindLiveObjects: 0.296336 ms CreateObjectMapping: 0.129111 ms MarkObjects: 1.601126 ms  DeleteObjects: 0.055049 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002317 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4b39000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e5f9ba00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4b75000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.2 MB.
+System memory in use after: 188.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3195.
+Total: 3.478674 ms (FindLiveObjects: 0.443318 ms CreateObjectMapping: 0.184275 ms MarkObjects: 2.751650 ms  DeleteObjects: 0.094905 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1141.809318 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b501269cd1806ebf16a83436fe2890d') in 0.093073 seconds
+  Import took 0.100505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495050 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197f931cb96777ed4aa64c10ac443365') in 0.028297 seconds
+  Import took 0.036496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.938827 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0af06916f5aaa519c989acaa7220cf') in 0.034149 seconds
+  Import took 0.041967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.238551 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3ca7fcd815f79e2967fcb4a5b62042') in 0.022432 seconds
+  Import took 0.028713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.679363 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f3023364cf474106c38851559aed86') in 0.023928 seconds
+  Import took 0.031889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.885278 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9a32c6811c85301cd1898cff215138') in 0.027656 seconds
+  Import took 0.037451 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4c97000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a06000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e57d7400 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ad7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.5 MB.
+System memory in use after: 188.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3199.
+Total: 3.220352 ms (FindLiveObjects: 0.488385 ms CreateObjectMapping: 0.250710 ms MarkObjects: 2.393578 ms  DeleteObjects: 0.084000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.199239 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c39295bb51ae967c58035df0f113680') in 0.089119 seconds
+  Import took 0.097410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.592400 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342d42864f9099b4d9dd3e55f93ef6a6') in 0.024042 seconds
+  Import took 0.032502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.400630 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79de0327357d8fcff01f2254b28e18a1') in 0.032065 seconds
+  Import took 0.040654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.403690 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a065f3957e1eb35bea0a90c8e1193') in 0.029235 seconds
+  Import took 0.037625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.285569 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb82530ccd226d6ec53c072dde5b1ba1') in 0.029453 seconds
+  Import took 0.036916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.055256 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11ded286656bb9fcaf149ff874600b6') in 0.028436 seconds
+  Import took 0.036696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.392586 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85a9bd7d71fb66abb6aacae17ef3dee') in 0.026414 seconds
+  Import took 0.034788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793094 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a9b1bfd7ca48e3b3b040d0e121b859') in 0.030539 seconds
+  Import took 0.037725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.570336 seconds.
+  path: Assets/Prefabs/MachinegunTurret.prefab
+  artifactKey: Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MachinegunTurret.prefab using Guid(257b46098add349d9bccd73c0178b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd2d3d9b86044e282f3b8433154a5c2') in 0.028494 seconds
+  Import took 0.038439 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002406 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4bee000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a19000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e53a5a00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4afc000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.9 MB.
+System memory in use after: 189.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 2.333820 ms (FindLiveObjects: 0.343138 ms CreateObjectMapping: 0.142114 ms MarkObjects: 1.785798 ms  DeleteObjects: 0.061418 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4c2a000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c04000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c04000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c04000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c04000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4c04000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e1e48000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a9f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.1 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 3.267216 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.251944 ms MarkObjects: 2.546331 ms  DeleteObjects: 0.066397 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003272 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4be4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e1b45e00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4af6000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 2.354039 ms (FindLiveObjects: 0.317619 ms CreateObjectMapping: 0.145475 ms MarkObjects: 1.827527 ms  DeleteObjects: 0.062187 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004089 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4c7d000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e489b000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ac4000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e42b8000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e75b4c00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4ad7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.431 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.5 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 2.670155 ms (FindLiveObjects: 0.363723 ms CreateObjectMapping: 0.157335 ms MarkObjects: 2.080701 ms  DeleteObjects: 0.066743 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015662 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fd0e4b0f000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e48e7000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4255000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e39c1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e49e1000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e5664e00 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fd0e4a40000 doesn't match image /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.794 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.6 MB.
+System memory in use after: 189.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 3.927594 ms (FindLiveObjects: 0.645506 ms CreateObjectMapping: 0.293613 ms MarkObjects: 2.883366 ms  DeleteObjects: 0.103180 ms)
 

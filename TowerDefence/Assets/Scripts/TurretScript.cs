@@ -7,7 +7,7 @@ public class TurretScript : MonoBehaviour
     private Transform target;
     private float rangeOfAttack = 15.0f;
     private readonly string enemyTag = "Enemy";
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -41,10 +41,12 @@ public class TurretScript : MonoBehaviour
         if (target == null) return;
 
         var direction = target.transform.position - this.transform.position;
-       // Debug.Log(target.transform.position);
+        // Debug.Log(target.transform.position);
         var lookRotation = Quaternion.LookRotation(direction).eulerAngles;
-       // Debug.Log(lookRotation);
-        this.transform.rotation = Quaternion.Euler(lookRotation.x, lookRotation.y, lookRotation.z);
+        // Debug.Log(lookRotation);
+        var partToRotate = this.transform.Find("CorrectPartToRotate");
+        //partToRotate.transform.position = this.transform.position;
+        partToRotate.transform.rotation = Quaternion.Euler(lookRotation.x , lookRotation.y, lookRotation.z );
     }
 
     /*private void OnDrawGizmosSelected()
