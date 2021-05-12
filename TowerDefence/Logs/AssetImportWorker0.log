@@ -2880,3 +2880,11 @@ System memory in use after: 196.3 MB.
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3234.
 Total: 2.390590 ms (FindLiveObjects: 0.341862 ms CreateObjectMapping: 0.142250 ms MarkObjects: 1.844230 ms  DeleteObjects: 0.060668 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 369.882880 seconds.
+  path: Assets/Models/Standard Turret/Turret.fbx
+  artifactKey: Guid(2653d4b190c174e8ea9e5d2ce9d4a16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Standard Turret/Turret.fbx using Guid(2653d4b190c174e8ea9e5d2ce9d4a16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080220f458b56ae35845dd6aaf1f2459') in 0.886569 seconds
+  Import took 0.907884 seconds .
+
