@@ -29,13 +29,13 @@ public class NodeMainScript : MonoBehaviour
 
     void OnMouseEnter()
     {
-        Debug.Log("Entered");
+        //Debug.Log("Entered");
         quickRend.material.color = changedColor;
     }
 
     void OnMouseExit()
     {
-        Debug.Log("Exited");
+        //Debug.Log("Exited");
         quickRend.material.color = defaultColor;
     }
 
@@ -43,7 +43,7 @@ public class NodeMainScript : MonoBehaviour
     {
        if (placedOn != null)
        {
-           Debug.Log("It is impossible to place another object on the current node");        
+           //Debug.Log("It is impossible to place another object on the current node");        
            return;
            //TO DO in a form of bubble message
        }

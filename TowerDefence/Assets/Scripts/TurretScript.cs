@@ -12,7 +12,6 @@ public class TurretScript : MonoBehaviour
     void Start()
     {
         Invoke(nameof(UpdateTarget), Time.deltaTime * 0.5f);
-        
     }
 
     void UpdateTarget()
@@ -46,13 +45,6 @@ public class TurretScript : MonoBehaviour
        // Debug.Log(lookRotation);
         this.transform.rotation = Quaternion.Euler(lookRotation.x, lookRotation.y, lookRotation.z);
     }
-
-    /*private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireSphere(transform.position, rangeOfAttack);
-    }*/
-
-    //TODO: ??????????? ?????????!!!
 
     public void Shoot()
     {

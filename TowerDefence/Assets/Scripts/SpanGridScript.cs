@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System;
 using UnityEngine;
 
 /// <summary>
@@ -9,6 +11,7 @@ using UnityEngine;
 public class SpanGridScript : MonoBehaviour
 {
     public GameObject[] itemsToPickFrom;
+    public List<GameObject> wayPointers;
     public int GridX;
     public int GridY;
 
@@ -22,9 +25,12 @@ public class SpanGridScript : MonoBehaviour
 
     void Start()
     {
-        SpawnGrid();
+        var wayPointerIndexes = CreateWayPointers();
+        SpawnGrid(wayPointerIndexes);
+        foreach (var ind in wayPointerIndexes)
+            Debug.Log(ind);
     }
-    void SpawnGrid()
+    void SpawnGrid(List<int> wayPointerIndexes)
     {
         int index = 0;
         for (int x = 0; x < GridX; x++)
@@ -32,17 +38,32 @@ public class SpanGridScript : MonoBehaviour
             for (int y = 0; y < GridY; y++)
             { 
                 var spawnPosition = new Vector3 (x * GridSpacingOffset, 0, y * GridSpacingOffset) + GridZeroPoint;
-                PickAndSpawn(spawnPosition, Quaternion.identity, index);
+                PickAndSpawn(spawnPosition, Quaternion.identity, index, wayPointerIndexes);
                 index++;
             }
         }
     }
-    void PickAndSpawn(Vector3 positionToSpawn, Quaternion rotationToSpawn, int index)
+    void PickAndSpawn(Vector3 positionToSpawn, Quaternion rotationToSpawn, int index, List<int> wayPointerIndexes)
     {
         int id = 0;
         if (hashSet.Contains(index)) id = 1;
         var clone = Instantiate(itemsToPickFrom[id], positionToSpawn, rotationToSpawn);
         if (id == 0) clone.GetComponent<NodeMainScript>().ID = index;
-        else clone.GetComponent<pathScript>().ID = index;
+        else
+        {
+            clone.GetComponent<pathScript>().ID = index;
+            if (wayPointerIndexes.Contains(index))
+            {
+                clone.GetComponent<pathScript>().waypointer = new GameObject();
+                wayPointers.Add(clone);
+                Debug.Log(clone.transform.position);
+            }
+        }
+    }
+
+    List<int> CreateWayPointers()
+    {
+        var wayPointIndexes = new List<int>() { 1, 17, 21, 133, 138, 202, 201, 233, 239 };
+        return wayPointIndexes;
     }
 }        
