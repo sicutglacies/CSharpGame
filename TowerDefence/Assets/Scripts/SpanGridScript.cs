@@ -11,7 +11,8 @@ using UnityEngine;
 public class SpanGridScript : MonoBehaviour
 {
     public GameObject[] itemsToPickFrom;
-    public List<GameObject> wayPointers;
+    public GameObject[] wayPointers = new GameObject[9];
+    public GameObject shar;
     public int GridX;
     public int GridY;
 
@@ -27,17 +28,19 @@ public class SpanGridScript : MonoBehaviour
     {
         var wayPointerIndexes = CreateWayPointers();
         SpawnGrid(wayPointerIndexes);
-        foreach (var ind in wayPointerIndexes)
-            Debug.Log(ind);
+        Instantiate(shar, new Vector3(-100, 0, 0), new Quaternion(0, 0, 0, 0));
+        Instantiate(shar, new Vector3(-110, 0, 0), new Quaternion(0, 0, 0, 0));
+        //foreach (var ind in wayPointerIndexes)
+        //Debug.Log(ind);
     }
     void SpawnGrid(List<int> wayPointerIndexes)
     {
         int index = 0;
         for (int x = 0; x < GridX; x++)
-        { 
+        {
             for (int y = 0; y < GridY; y++)
-            { 
-                var spawnPosition = new Vector3 (x * GridSpacingOffset, 0, y * GridSpacingOffset) + GridZeroPoint;
+            {
+                var spawnPosition = new Vector3(x * GridSpacingOffset, 0, y * GridSpacingOffset) + GridZeroPoint;
                 PickAndSpawn(spawnPosition, Quaternion.identity, index, wayPointerIndexes);
                 index++;
             }
@@ -55,8 +58,10 @@ public class SpanGridScript : MonoBehaviour
             if (wayPointerIndexes.Contains(index))
             {
                 clone.GetComponent<pathScript>().waypointer = new GameObject();
-                wayPointers.Add(clone);
-                Debug.Log(clone.transform.position);
+                //Debug.Log(index + " " + wayPointerIndexes.IndexOf(index) + " " + wayPointers.Length);
+                wayPointers[wayPointerIndexes.IndexOf(index)] = clone;
+                
+                //Debug.Log(clone.transform.position);
             }
         }
     }
@@ -66,4 +71,4 @@ public class SpanGridScript : MonoBehaviour
         var wayPointIndexes = new List<int>() { 1, 17, 21, 133, 138, 202, 201, 233, 239 };
         return wayPointIndexes;
     }
-}        
+}

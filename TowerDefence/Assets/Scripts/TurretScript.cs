@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class TurretScript : MonoBehaviour
@@ -7,11 +8,12 @@ public class TurretScript : MonoBehaviour
     private Transform target;
     private float rangeOfAttack = 15.0f;
     private readonly string enemyTag = "Enemy";
-
+    
     // Start is called before the first frame update
     void Start()
     {
-        Invoke(nameof(UpdateTarget), Time.deltaTime * 0.5f);
+        InvokeRepeating(nameof(UpdateTarget), 0.5f, 0.5f);
+        
     }
 
     void UpdateTarget()
@@ -26,12 +28,18 @@ public class TurretScript : MonoBehaviour
             {
                 shortestDistance = distance;
                 selectedEnemy = enemy;
+                Debug.Log(enemy.name);
             }
         }
 
         if (selectedEnemy != null && shortestDistance <= rangeOfAttack)
             target = selectedEnemy.transform;
-        Debug.Log("Found");
+        else
+        {
+            var min = GameObject.FindGameObjectsWithTag("Plitka").Min(x => Vector3.Distance(x.transform.position, this.transform.position));
+            var plitka = GameObject.FindGameObjectsWithTag("Plitka").FirstOrDefault(x => Vector3.Distance(x.transform.position, this.transform.position) == min);
+            target = plitka.transform;
+        }
     }
 
     // Update is called once per frame
@@ -40,11 +48,20 @@ public class TurretScript : MonoBehaviour
         if (target == null) return;
 
         var direction = target.transform.position - this.transform.position;
-       // Debug.Log(target.transform.position);
+        // Debug.Log(target.transform.position);
         var lookRotation = Quaternion.LookRotation(direction).eulerAngles;
-       // Debug.Log(lookRotation);
-        this.transform.rotation = Quaternion.Euler(lookRotation.x, lookRotation.y, lookRotation.z);
+        // Debug.Log(lookRotation);
+        var partToRotate = this.transform.Find("CorrectPartToRotate");
+        //partToRotate.transform.position = this.transform.position;
+        partToRotate.transform.rotation = Quaternion.Euler(lookRotation.x , lookRotation.y, lookRotation.z );
     }
+
+    /*private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, rangeOfAttack);
+    }*/
+
+    //TODO: ??????????? ?????????!!!
 
     public void Shoot()
     {

@@ -11,7 +11,7 @@ public class NodeMainScript : MonoBehaviour
     public int ID;
     public Color defaultColor;
     public Color changedColor;
-    public GameObject thisObject;
+    //public GameObject thisObject;
 
     private Renderer quickRend;
     private GameObject placedOn;
@@ -24,7 +24,7 @@ public class NodeMainScript : MonoBehaviour
         ColorUtility.TryParseHtmlString("#222525", out changedColor);
 
         quickRend.material.color = defaultColor;
-        thisObject = this.gameObject;
+        //thisObject = this.gameObject;
     }
 
     void OnMouseEnter()
@@ -48,12 +48,9 @@ public class NodeMainScript : MonoBehaviour
            //TO DO in a form of bubble message
        }
        var tempObj = BuildManager.Instance.WishedObject;
+       Debug.Log(BuildManager.Instance);
        placedOn = Instantiate(tempObj, transform.position + new Vector3 { x = 0, y = 0.5f, z = 0}, transform.rotation);
     }
 
-    void OnDrawGizmos()
-    {
-        if (placedOn != null)
-            Gizmos.DrawWireSphere(transform.position, 15f);
-    }
+    
 }
