@@ -5,11 +5,19 @@ using UnityEngine;
 
 public class TurretScript : MonoBehaviour
 {
+
+    public GameObject bulletPrefab;
+    public Transform firePoint; // position of bullet 
+
     private Transform target;
     private float rangeOfAttack = 15.0f;
     private readonly string enemyTag = "Enemy";
+
+    private float fireRate = 1f;
+    private float fireCountDown = 0f;
+
     
-    // Start is called before the first frame update
+    
     void Start()
     {
         InvokeRepeating(nameof(UpdateTarget), 0.5f, 0.5f);
@@ -42,30 +50,35 @@ public class TurretScript : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (target == null) return;
+        
+        Vector3 direction = target.transform.position - this.transform.position;
+        Vector3 lookRotation = Quaternion.LookRotation(direction).eulerAngles;
 
-        var direction = target.transform.position - this.transform.position;
-        // Debug.Log(target.transform.position);
-        var lookRotation = Quaternion.LookRotation(direction).eulerAngles;
-        // Debug.Log(lookRotation);
-        var partToRotate = this.transform.Find("CorrectPartToRotate");
-        //partToRotate.transform.position = this.transform.position;
-        partToRotate.transform.rotation = Quaternion.Euler(lookRotation.x , lookRotation.y, lookRotation.z );
+        Transform partToRotate = this.transform.Find("CorrectPartToRotate");
+        partToRotate.transform.rotation = Quaternion.Euler(lookRotation.x, lookRotation.y, lookRotation.z);
+
+        if (fireCountDown <= 0f && target.name != "pathPref(Clone)")
+        {
+            Shoot();
+            fireCountDown = 1f / fireRate;
+        }
+        fireCountDown -= Time.deltaTime;
     }
-
-    /*private void OnDrawGizmosSelected()
-    {
-        Gizmos.DrawWireSphere(transform.position, rangeOfAttack);
-    }*/
-
-    //TODO: ??????????? ?????????!!!
 
     public void Shoot()
     {
-        throw new System.NotImplementedException();
+        GameObject spawnedBullet = (GameObject) Instantiate (bulletPrefab, 
+            firePoint.position, firePoint.rotation);
+
+        BulletScript bulletScript = spawnedBullet.GetComponent<BulletScript>();
+        if (bulletScript is null)
+        {
+            Debug.Log("Bullet is null");
+        }
+        bulletScript.FindATarget(target);
     }
 
     public void Upgrage()

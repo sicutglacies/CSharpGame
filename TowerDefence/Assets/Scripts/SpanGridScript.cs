@@ -30,8 +30,6 @@ public class SpanGridScript : MonoBehaviour
         SpawnGrid(wayPointerIndexes);
         Instantiate(shar, new Vector3(-100, 0, 0), new Quaternion(0, 0, 0, 0));
         Instantiate(shar, new Vector3(-110, 0, 0), new Quaternion(0, 0, 0, 0));
-        //foreach (var ind in wayPointerIndexes)
-        //Debug.Log(ind);
     }
     void SpawnGrid(List<int> wayPointerIndexes)
     {
@@ -58,14 +56,11 @@ public class SpanGridScript : MonoBehaviour
             if (wayPointerIndexes.Contains(index))
             {
                 clone.GetComponent<pathScript>().waypointer = new GameObject();
-                //Debug.Log(index + " " + wayPointerIndexes.IndexOf(index) + " " + wayPointers.Length);
                 wayPointers[wayPointerIndexes.IndexOf(index)] = clone;
                 
-                //Debug.Log(clone.transform.position);
             }
         }
     }
-
     List<int> CreateWayPointers()
     {
         var wayPointIndexes = new List<int>() { 1, 17, 21, 133, 138, 202, 201, 233, 239 };
