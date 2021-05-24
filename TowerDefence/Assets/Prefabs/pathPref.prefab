@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -6306610685057584413}
   m_Layer: 0
   m_Name: pathPref
-  m_TagString: Enemy
+  m_TagString: Plitka
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,3 +108,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cba8751de4b94fa99bcf17236773925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 0
+  waypointer: {fileID: 0}

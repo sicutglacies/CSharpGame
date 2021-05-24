@@ -156,6 +156,17 @@ MonoBehaviour:
   itemsToPickFrom:
   - {fileID: 4867986193440564762, guid: 7746a7c7ef503204f93f284f28ad47fa, type: 3}
   - {fileID: 6096242541463702274, guid: 579623a5e3254ae49b97661f25d07e70, type: 3}
+  wayPointers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  shar: {fileID: 1629133185013643491, guid: dd696f6c9f50442fd836a104ef988c75, type: 3}
   GridX: 16
   GridY: 16
 --- !u!4 &308381681

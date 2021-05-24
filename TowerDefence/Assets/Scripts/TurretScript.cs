@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class TurretScript : MonoBehaviour
@@ -11,7 +12,7 @@ public class TurretScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke(nameof(UpdateTarget), Time.deltaTime * 0.5f);
+        InvokeRepeating(nameof(UpdateTarget), 0.5f, 0.5f);
         
     }
 
@@ -27,12 +28,18 @@ public class TurretScript : MonoBehaviour
             {
                 shortestDistance = distance;
                 selectedEnemy = enemy;
+                Debug.Log(enemy.name);
             }
         }
 
         if (selectedEnemy != null && shortestDistance <= rangeOfAttack)
             target = selectedEnemy.transform;
-        Debug.Log("Found");
+        else
+        {
+            var min = GameObject.FindGameObjectsWithTag("Plitka").Min(x => Vector3.Distance(x.transform.position, this.transform.position));
+            var plitka = GameObject.FindGameObjectsWithTag("Plitka").FirstOrDefault(x => Vector3.Distance(x.transform.position, this.transform.position) == min);
+            target = plitka.transform;
+        }
     }
 
     // Update is called once per frame
