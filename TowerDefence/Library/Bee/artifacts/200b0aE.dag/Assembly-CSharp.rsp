@@ -320,6 +320,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/BuildManager.cs"
 "Assets/Scripts/BulletScript.cs"
+"Assets/Scripts/CameraControllerScript.cs"
 "Assets/Scripts/EnemyScript.cs"
 "Assets/Scripts/EnemySpanerScript.cs"
 "Assets/Scripts/NodeMainScript.cs"
