@@ -15,3 +15,9 @@ Joint project (game) for C# course at Ural Federal University
 ### 25.04:
 - Added **path generation** script. Random generation will be available in the future
 - Added **Turret class** and model. It can now **react on** the objects with **Enemy** tag
+
+### 
+
+
+
+###
