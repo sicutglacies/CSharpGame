@@ -12,7 +12,9 @@ public class SpanGridScript : MonoBehaviour
 {
     public GameObject[] itemsToPickFrom;
     public GameObject[] wayPointers = new GameObject[9];
-    public GameObject shar;
+    public GameObject StartPoint;
+    public GameObject EndPoint;
+
     public int GridX;
     public int GridY;
 
@@ -28,9 +30,8 @@ public class SpanGridScript : MonoBehaviour
     {
         var wayPointerIndexes = CreateWayPointers();
         SpawnGrid(wayPointerIndexes);
-        Instantiate(shar, new Vector3(-100, 0, 0), new Quaternion(0, 0, 0, 0));
-        Instantiate(shar, new Vector3(-110, 0, 0), new Quaternion(0, 0, 0, 0));
     }
+
     void SpawnGrid(List<int> wayPointerIndexes)
     {
         int index = 0;
@@ -39,6 +40,10 @@ public class SpanGridScript : MonoBehaviour
             for (int y = 0; y < GridY; y++)
             {
                 var spawnPosition = new Vector3(x * GridSpacingOffset, 0, y * GridSpacingOffset) + GridZeroPoint;
+                if (index == 0)
+                    Instantiate(StartPoint, spawnPosition + new Vector3(0, 2.5f, 0), new Quaternion(0, 0, 0, 0));
+                if (GridX * GridY - 1 == index)
+                    Instantiate(EndPoint, spawnPosition + new Vector3(0, 2.5f, 0), new Quaternion(0, 0, 0, 0));
                 PickAndSpawn(spawnPosition, Quaternion.identity, index, wayPointerIndexes);
                 index++;
             }

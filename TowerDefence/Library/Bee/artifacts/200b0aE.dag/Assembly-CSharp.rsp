@@ -321,6 +321,7 @@
 "Assets/Scripts/BuildManager.cs"
 "Assets/Scripts/BulletScript.cs"
 "Assets/Scripts/EnemyScript.cs"
+"Assets/Scripts/EnemySpanerScript.cs"
 "Assets/Scripts/NodeMainScript.cs"
 "Assets/Scripts/pathScript.cs"
 "Assets/Scripts/SpanGridScript.cs"
