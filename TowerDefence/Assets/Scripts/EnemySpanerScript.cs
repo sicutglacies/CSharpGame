@@ -16,6 +16,11 @@ public class EnemySpanerScript : MonoBehaviour
         
     }
 
+     void OnMouseDown()
+     {
+        Instantiate(Enemy, transform.position, transform.rotation);
+     }
+
     void Update()
     {
         if (countDown <= 0f && waveCount > 0)

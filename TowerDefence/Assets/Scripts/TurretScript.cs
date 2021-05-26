@@ -36,7 +36,6 @@ public class TurretScript : MonoBehaviour
             {
                 shortestDistance = distance;
                 selectedEnemy = enemy;
-                Debug.Log(enemy.name);
             }
         }
 
