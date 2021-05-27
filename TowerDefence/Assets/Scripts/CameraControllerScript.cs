@@ -6,42 +6,39 @@ public class CameraControllerScript : MonoBehaviour
 {
     public float panSpeed = 30f;
 
-    private float panBorderThickness = 10f;
-    private bool movementFlag = true;
     private float scrollSpeed = 5f;
+    private float speed = 50f;
 
     private float minY = 10f;
-        private float maxY = 100f;
+    private float maxY = 100f;
+
+    private float newMinY = -45.0f;
+    private float newMaxY = 45.0f;
+
+    public float sensX = 100.0f;
+    public float sensY = 100.0f;
+
+    float rotationY = 0.0f;
+    float rotationX = 0.0f;
+
+    public CharacterController controller;
 
     void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.Space))      
-            movementFlag = !movementFlag;      
-        
-        if (!movementFlag)
-            return;
-
-        if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBorderThickness)
+        if (Input.GetMouseButton(1)) 
         {
-            transform.Translate(Vector3.forward * panSpeed * Time.deltaTime, Space.World);
+            rotationX += Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
+            rotationY += Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
+            rotationY = Mathf.Clamp(rotationY, newMinY, newMaxY);
+            transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
         }
 
-        if (Input.GetKey("s") || Input.mousePosition.y <= panBorderThickness)
-        {
-            transform.Translate(Vector3.back * panSpeed * Time.deltaTime, Space.World);
-        }
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
 
-        if (Input.GetKey("d") || Input.mousePosition.x >= Screen.width - panBorderThickness)
-        {
-            transform.Translate(Vector3.right * panSpeed * Time.deltaTime, Space.World);
-        }
-            
-        if (Input.GetKey("a") || Input.mousePosition.x <= panBorderThickness)
-        {
-            transform.Translate(Vector3.left * panSpeed * Time.deltaTime, Space.World);
-        }
-
+        Vector3 move = transform.right * x + transform.forward * z;
+        controller.Move(move * speed * Time.deltaTime);
+              
         float scrollInput = Input.GetAxis("Mouse ScrollWheel");
         Vector3 position = transform.position;
 
