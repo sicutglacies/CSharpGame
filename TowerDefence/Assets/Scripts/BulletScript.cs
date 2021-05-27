@@ -18,11 +18,13 @@ public class BulletScript : MonoBehaviour
         GameObject effectInstance = (GameObject) Instantiate(particlesEffect, 
             transform.position, transform.rotation);
         Destroy(effectInstance, 2f);
-        Destroy(this.gameObject); 
+        Destroy(this.gameObject);
+        var enemyScript = GetNearestEnemy()?.GetComponent<EnemyScript>();
+        enemyScript.health--;
     }
     void Update()
     {
-        if (targetOfBullet is null)
+        if (targetOfBullet == null)
         {
             Destroy(gameObject); 
             return;
@@ -37,5 +39,22 @@ public class BulletScript : MonoBehaviour
             return;
         }
         transform.Translate(dir.normalized * distanceToBeMovedForThisFrame, Space.World);
+    }
+
+    GameObject GetNearestEnemy()
+    {
+        var shortestDistance = double.PositiveInfinity;
+        var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject selectedEnemy = null;
+        foreach (var enemy in enemies)
+        {
+            var distance = Vector3.Distance(this.transform.position, enemy.transform.position);
+            if (distance < shortestDistance)
+            {
+                shortestDistance = distance;
+                selectedEnemy = enemy;
+            }
+        }
+        return selectedEnemy;
     }
 }

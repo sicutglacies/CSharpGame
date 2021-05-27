@@ -8,6 +8,7 @@ public class EnemyScript : MonoBehaviour
     private Transform target;
     private int wayPointerIndex;
     private GameObject[] wayPointers;
+    public int health = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -23,9 +24,9 @@ public class EnemyScript : MonoBehaviour
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
         if (Vector3.Distance(transform.position, target.position + new Vector3(0, 2, 0)) <= 0.2f)
-        {
             GetNextWayPointer();
-        }
+        if (health == 0)
+            Destroy(gameObject);
     }
 
     void GetNextWayPointer()
