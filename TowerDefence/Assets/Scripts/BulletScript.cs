@@ -24,7 +24,7 @@ public class BulletScript : MonoBehaviour
     }
     void Update()
     {
-        if (targetOfBullet is null)
+        if (targetOfBullet == null)
         {
             Destroy(gameObject); 
             return;
