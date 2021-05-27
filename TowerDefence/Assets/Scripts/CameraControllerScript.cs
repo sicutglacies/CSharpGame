@@ -33,10 +33,8 @@ public class CameraControllerScript : MonoBehaviour
             transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
         }
 
-
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-
 
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * speed * Time.deltaTime);
