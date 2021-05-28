@@ -15,9 +15,11 @@ public class NodeMainScript : MonoBehaviour
 
     private Renderer quickRend;
     private GameObject placedOn;
+    private PlayerScript player;
 
     void Start()
     {
+        player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
         quickRend = GetComponent<Renderer>();
 
         ColorUtility.TryParseHtmlString("#9D9F9F", out defaultColor);
@@ -41,16 +43,16 @@ public class NodeMainScript : MonoBehaviour
 
     void OnMouseDown()
     {
-       if (placedOn != null)
-       {
-           //Debug.Log("It is impossible to place another object on the current node");        
-           return;
-           //TO DO in a form of bubble message
-       }
-       var tempObj = BuildManager.Instance.WishedObject;
-       Debug.Log(BuildManager.Instance);
-       placedOn = Instantiate(tempObj, transform.position + new Vector3 { x = 0, y = 0.5f, z = 0}, transform.rotation);
+        if (placedOn != null || player.PlayerMoney < 100)
+        {
+            //Debug.Log("It is impossible to place another object on the current node");        
+            return;
+            //TO DO in a form of bubble message
+        }
+        var tempObj = BuildManager.Instance.WishedObject;
+        Debug.Log(BuildManager.Instance);
+        placedOn = Instantiate(tempObj, transform.position + new Vector3 { x = 0, y = 0.5f, z = 0}, transform.rotation);
+        player.PlayerMoney -= 100;
     }
 
-    
 }

@@ -9,10 +9,13 @@ public class EnemyScript : MonoBehaviour
     private int wayPointerIndex;
     private GameObject[] wayPointers;
     public int health = 3;
+    private PlayerScript player;
 
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
+        Debug.Log(GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>());
         wayPointers = GameObject.Find("GridSpawner").GetComponent<SpanGridScript>().wayPointers;
         target = wayPointers[0].transform;
     }
@@ -26,7 +29,11 @@ public class EnemyScript : MonoBehaviour
         if (Vector3.Distance(transform.position, target.position + new Vector3(0, 2, 0)) <= 0.2f)
             GetNextWayPointer();
         if (health == 0)
+        {
             Destroy(gameObject);
+            player.PlayerMoney += 20;
+            player.PlayerScore++;
+        }
     }
 
     void GetNextWayPointer()
@@ -35,6 +42,7 @@ public class EnemyScript : MonoBehaviour
         if (wayPointerIndex >= wayPointers.Length - 1)
         {
             Destroy(gameObject);
+            player.PlayerHealth--;
             return;
         }
 
