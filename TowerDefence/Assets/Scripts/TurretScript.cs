@@ -16,8 +16,6 @@ public class TurretScript : MonoBehaviour
     private float fireRate = 1f;
     private float fireCountDown = 0f;
 
-    
-    
     void Start()
     {
         InvokeRepeating(nameof(UpdateTarget), 0.5f, 0.5f);      
