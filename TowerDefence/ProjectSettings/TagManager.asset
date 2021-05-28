@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Plitka
+  - CanvasTag
+  - LvL1
+  - LvL2
+  - Building
   layers:
   - Default
   - TransparentFX

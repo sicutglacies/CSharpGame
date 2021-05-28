@@ -7,45 +7,49 @@ using AdvancedButton;
 
 public class UIControlScript : MonoBehaviour
 {
+    public Canvas canvas;
+
     private Transform container;
     private Transform shopItemTemplate;
-    private Canvas attachedTo;
+    private float shopItemHeight = 400;
 
     void Awake()
     {
-        attachedTo = FindObjectOfType<Canvas>(); 
-        attachedTo.gameObject.SetActive(false);
 
         container = transform.Find("Container");
         shopItemTemplate = container.Find("ShopTemplate");
-
-        shopItemTemplate.gameObject.SetActive(false);
     }
     void Start()
-    {
-        CreateItemButton(Item.ReturnTexture(Item.ItemType.TurretLvL1), "Turret Lvl. 5",
-            Item.ReturnCost(Item.ItemType.TurretLvL1), 0, Item.ItemType.TurretLvL1);
-        CreateItemButton(Item.ReturnTexture(Item.ItemType.TurretLvL2), "Turret Lvl. 10",
-            Item.ReturnCost(Item.ItemType.TurretLvL2), 1, Item.ItemType.TurretLvL2);
-    }
-    void CreateItemButton(Texture texture, string itemName, int itemCost, int positionIndex, Item.ItemType type)
-    {
+    {    
+        CreateItemButton(Item.ReturnTexture(Item.ItemType.TurretLvL1), "Turret Lvl. 1",
+            Item.ReturnCost(Item.ItemType.TurretLvL1), Item.ItemType.TurretLvL1);
 
-        float shopItemHeight = 300f;
-         
+        CreateItemButton(Item.ReturnTexture(Item.ItemType.TurretLvL2), "Turret Lvl. 2",
+            Item.ReturnCost(Item.ItemType.TurretLvL2), Item.ItemType.TurretLvL2);   
+
+        Destroy(shopItemTemplate.gameObject);
+    }
+    void CreateItemButton(Texture texture, string itemName, int itemCost, Item.ItemType type)
+    {
+        
         Transform shopItem = Instantiate(shopItemTemplate, container);
         RectTransform shopItemRect = shopItem.GetComponent<RectTransform>();
 
-        shopItemRect.anchoredPosition = new Vector2(0, -shopItemHeight * positionIndex);
+
+        shopItemRect.anchoredPosition = new Vector2(37, shopItemHeight);
+        shopItemHeight -= 700f;
 
         shopItem.Find("ItemName").GetComponent<TextMeshProUGUI>().SetText(itemName);
-        shopItem.Find("ItemPrice").GetComponent<TextMeshProUGUI>().SetText(itemCost.ToString());
+        shopItem.Find("ItemCost").GetComponent<TextMeshProUGUI>().SetText(itemCost.ToString());
         shopItem.Find("ItemImage").GetComponent<RawImage>().texture = texture;
 
-        shopItem.GetComponent<Button_UI>().ClickFunc = () =>
-        {
-            Show();
-        };
+        
+        BuySome button =  shopItem.Find("Button").GetComponent<BuySome>();
+        if (type == Item.ItemType.TurretLvL1)
+            button.tag = "LvL1";
+        else
+            button.tag = "LvL2";
+
     }
 
     public void Show()
@@ -56,10 +60,4 @@ public class UIControlScript : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
-
-    void TryBuyItem(Item.ItemType type)
-    {
-
-    }
-
 }

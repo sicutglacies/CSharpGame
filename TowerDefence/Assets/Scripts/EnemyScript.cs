@@ -5,19 +5,23 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     public float speed = 10f;
-    private Transform target;
-    private int wayPointerIndex;
-    private GameObject[] wayPointers;
     public int health = 3;
 
-    // Start is called before the first frame update
+    private int wayPointerIndex;
+    
+    private GameObject[] wayPointers;
+    private PlayerScript player;
+    private Transform target;
+    private EnemySpanerScript spawner;
+
     void Start()
     {
+        player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
         wayPointers = GameObject.Find("GridSpawner").GetComponent<SpanGridScript>().wayPointers;
         target = wayPointers[0].transform;
+        spawner = GameObject.Find("StartBlock(Clone)").GetComponent<EnemySpanerScript>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 dir = target.position - transform.position + new Vector3(0, 2, 0);
@@ -25,19 +29,25 @@ public class EnemyScript : MonoBehaviour
 
         if (Vector3.Distance(transform.position, target.position + new Vector3(0, 2, 0)) <= 0.2f)
             GetNextWayPointer();
+
         if (health == 0)
+        {
             Destroy(gameObject);
+            spawner.EnemyRemaining--;
+            player.PlayerMoney += 20;
+            player.PlayerScore++;
+        }
     }
 
     void GetNextWayPointer()
     {
-        //Debug.Log("now here");
         if (wayPointerIndex >= wayPointers.Length - 1)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); 
+            player.PlayerHealth--;
+            spawner.EnemyRemaining--;
             return;
         }
-
         wayPointerIndex++;
         target = wayPointers[wayPointerIndex].transform;
     }

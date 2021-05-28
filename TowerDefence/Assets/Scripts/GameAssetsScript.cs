@@ -6,19 +6,22 @@ using UnityEngine.UI;
 public class GameAssetsScript : MonoBehaviour
 {
     public Texture TowerLvL1;
-    public Texture TowerLvl2;
+    public Texture TowerLvL2;
 
-    private static GameAssetsScript iRef;
+    public GameObject TurretObject_1;
+    public GameObject TurretObject_2;
+
+    private static GameAssetsScript instance;
     public static GameAssetsScript Instance
     {
         get 
         {
-            if (iRef == null)
+            if (instance == null)
             {
-                iRef = Instantiate(Resources.Load("GameAssets") as GameObject)
+                instance = Instantiate(Resources.Load("GameAssets") as GameObject)
                       .GetComponent<GameAssetsScript>();
             }                
-            return iRef; 
+            return instance; 
         }
     }
 }

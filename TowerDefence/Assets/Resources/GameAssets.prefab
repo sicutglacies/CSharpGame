@@ -44,4 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TowerLvL1: {fileID: 2800000, guid: fc5e8567466926e4fbe3de168569646d, type: 3}
-  TowerLvl2: {fileID: 2800000, guid: 46b04ea2722b23b499e42ad9b10d7367, type: 3}
+  TowerLvL2: {fileID: 2800000, guid: bad53d27bcd1dd84ba50e3cbfc488a1c, type: 3}
+  TurretObject_1: {fileID: 2011214653693680262, guid: dcb939a5abfeb48fab70e9ff1805e9a4, type: 3}
+  TurretObject_2: {fileID: 5487939418065214649, guid: 350493cd688f3459090b8c8546e89757, type: 3}

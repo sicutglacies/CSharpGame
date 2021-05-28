@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class EnemySpanerScript : MonoBehaviour
 {
+    public int EnemyRemaining = waveCount * enemyCount;
     public GameObject Enemy;
     private float delay = 3f;
     private float countDown = 2f;
     static private int waveCount = 3;
     static private int enemyCount = 3;
-    public readonly int EnemyRemaining = waveCount * enemyCount;
+   
     
     void Start()
     {

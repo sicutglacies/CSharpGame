@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.Linq;
 
 /// <summary>
 /// Controls the main behaviour of nodes
@@ -10,12 +10,15 @@ public class NodeMainScript : MonoBehaviour
 {
     public int ID;
 
+    public GameObject placedOn;
+    public Transform shopItemTemplate;
+    public Transform canvas;
+    public Color changedColor;
+   
     private Color defaultColor;
-    private Color changedColor;
-
-    private Renderer quickRend;
-    private GameObject placedOn;
-    private UIControlScript scriptOfUI;
+    private Renderer quickRend; 
+    private PlayerScript player;
+    
 
     void Awake()
     {
@@ -24,7 +27,9 @@ public class NodeMainScript : MonoBehaviour
         ColorUtility.TryParseHtmlString("#222525", out changedColor);
         quickRend.material.color = defaultColor;
 
-        scriptOfUI = FindObjectOfType<Canvas>().GetComponentInChildren<UIControlScript>();            
+        player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
+        canvas = GameObject.Find("UI").transform.Find("Canvas(Clone)");
+        shopItemTemplate = canvas.Find("UIShop").Find("Container");
     }
 
     void OnMouseEnter()
@@ -38,17 +43,18 @@ public class NodeMainScript : MonoBehaviour
     }
 
     void OnMouseDown()
-    {
-        if (scriptOfUI is null)
-            return;
+    {  
 
-        scriptOfUI.Show();
+        if (placedOn == null && player.PlayerMoney >= 50)
+        {
+            if (GameObject.FindGameObjectsWithTag("Building").ToList().Count < 1)
+                this.transform.tag = "Building";
 
-        Debug.Log("Done!");
+            canvas.gameObject.SetActive(true);
+            shopItemTemplate.gameObject.SetActive(true);
 
-       //var tempObj = BuildManager.Instance.WishedObject;
-       // Debug.Log(BuildManager.Instance);
-       //placedOn = Instantiate(tempObj, transform.position + new Vector3 { x = 0, y = 0.5f, z = 0}, transform.rotation);
-    }
-    
+        }
+
+       
+    }   
 }

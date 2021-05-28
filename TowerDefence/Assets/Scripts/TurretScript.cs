@@ -20,8 +20,7 @@ public class TurretScript : MonoBehaviour
     
     void Start()
     {
-        InvokeRepeating(nameof(UpdateTarget), 0.5f, 0.5f);
-        
+        InvokeRepeating(nameof(UpdateTarget), 0.5f, 0.5f);      
     }
 
     void UpdateTarget()
