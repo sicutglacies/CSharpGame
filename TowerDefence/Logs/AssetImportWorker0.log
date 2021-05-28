@@ -1,426 +1,605 @@
 Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.985; Version 2004; 64bit' Language: 'ru' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity 2021.1.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence
+C:/Users/Daniil/Desktop/CSharpGame/TowerDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60773
-Successfully changed project path to: /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence
-/Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence
+57823
+Successfully changed project path to: C:/Users/Daniil/Desktop/CSharpGame/TowerDefence
+C:/Users/Daniil/Desktop/CSharpGame/TowerDefence
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 121.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.3f1 (76626098c1c4)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/aleksandrmysinskij/Desktop/ProjectCS/CSharpGame/TowerDefence/Assets
-GfxDevice: creating device client; threaded=0
-2021-05-28 15:40:06.662 Unity[20431:951101] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-05-28 15:40:06.662 Unity[20431:951101] Metal devices available: 1
-2021-05-28 15:40:06.662 Unity[20431:951101] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-05-28 15:40:06.662 Unity[20431:951101] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Daniil/Desktop/CSharpGame/TowerDefence/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56431
+Mono path[0] = 'C:/Program Files/Unity 2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001014 seconds.
+Register platform support module: C:/Program Files/Unity 2021.1.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003220 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 81.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 110.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.130 seconds
+- Completed reload, in  1.886 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002040 seconds.
+Registered in 0.004941 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000168DAAE3E40 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DFE8E030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DAAE3E40 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E07B0030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DAAF7250 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA604040 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA9D56F0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DAA7D010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF552620 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA545640 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DAAF7250 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E0359010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA1B86A0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E0359010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA545640 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA545640 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA82C7E0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DFE8E030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA428020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
+- Completed reload, in  1.941 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2675 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.2 MB.
-System memory in use after: 177.3 MB.
+Unloading 2722 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.2 MB.
+System memory in use after: 114.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3128.
-Total: 3.196241 ms (FindLiveObjects: 0.439142 ms CreateObjectMapping: 0.180060 ms MarkObjects: 2.472662 ms  DeleteObjects: 0.102500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3190.
+Total: 4.736200 ms (FindLiveObjects: 0.712200 ms CreateObjectMapping: 0.400400 ms MarkObjects: 3.468300 ms  DeleteObjects: 0.152300 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scripts/NodeMainScript.cs
+  artifactKey: Guid(d0009d23100b7a841a46ce690f8cd670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NodeMainScript.cs using Guid(d0009d23100b7a841a46ce690f8cd670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601c93029e2bb694e0c17bb56b751f3f') in 0.078313 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3190.
+Total: 2.628300 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.197000 ms MarkObjects: 2.031400 ms  DeleteObjects: 0.058100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.151736 seconds.
   path: Assets/Scripts/PlayerScript.cs
   artifactKey: Guid(c9c37b94b8d444300b680ddd00e2f80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerScript.cs using Guid(c9c37b94b8d444300b680ddd00e2f80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcef4011392a00d958415b7f17180708') in 0.876925 seconds
-  Import took 0.882191 seconds .
-
+Start importing Assets/Scripts/PlayerScript.cs using Guid(c9c37b94b8d444300b680ddd00e2f80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085ec0b75dfc2181ccaf02f119773707') in 0.011999 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 236.771369 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74323a4ca731254c774c9aa5ca58276') in 1.052656 seconds
-  Import took 1.084392 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004769 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000168DF015030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E28E54C0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA16D010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA537C00 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA16D010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA46EB70 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA16D010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E19BB020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEA4C020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA526400 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA16D010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA183470 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1840010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DAADA010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA526400 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1DF6020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEA94A60 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEF0BA30 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DE9F8020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 113.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3193.
+Total: 3.131300 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.284900 ms MarkObjects: 2.460900 ms  DeleteObjects: 0.063200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003030 seconds.
+Registered in 0.006835 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000168E1A4B020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E237BE70 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA183470 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2360CD0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF02C720 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E0AE6030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA183470 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E21F1190 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEA4C020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E00D2010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E21C7100 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF632410 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E08A5010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E227FF60 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1D2D030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA54FD70 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA385010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2416B50 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEE3A020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.0 MB.
-System memory in use after: 186.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3131.
-Total: 2.376381 ms (FindLiveObjects: 0.368183 ms CreateObjectMapping: 0.136839 ms MarkObjects: 1.789056 ms  DeleteObjects: 0.081061 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002961 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.173 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3134.
-Total: 2.345364 ms (FindLiveObjects: 0.360763 ms CreateObjectMapping: 0.171446 ms MarkObjects: 1.747823 ms  DeleteObjects: 0.064002 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009871 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.4 MB.
-System memory in use after: 186.5 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3137.
-Total: 2.291484 ms (FindLiveObjects: 0.303184 ms CreateObjectMapping: 0.147938 ms MarkObjects: 1.777140 ms  DeleteObjects: 0.061903 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002036 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
+- Completed reload, in  1.745 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.6 MB.
-System memory in use after: 186.7 MB.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 113.1 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3140.
-Total: 2.181778 ms (FindLiveObjects: 0.295874 ms CreateObjectMapping: 0.145537 ms MarkObjects: 1.676835 ms  DeleteObjects: 0.062367 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 2.724700 ms (FindLiveObjects: 0.355700 ms CreateObjectMapping: 0.270000 ms MarkObjects: 2.045300 ms  DeleteObjects: 0.052400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009980 seconds.
+Registered in 0.004307 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000168E2781FB0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E236B820 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1138020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2360CD0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF02C720 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E099A410 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E231FFA0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1403010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1918010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E0994040 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA2B2020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEE12040 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2415260 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA43A010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA54FD70 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF21B050 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA385010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEE73230 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DFDD6010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.210 seconds
+- Completed reload, in  1.535 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.8 MB.
-System memory in use after: 186.9 MB.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 2.378648 ms (FindLiveObjects: 0.397560 ms CreateObjectMapping: 0.188424 ms MarkObjects: 1.729955 ms  DeleteObjects: 0.061494 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3199.
+Total: 2.818500 ms (FindLiveObjects: 0.471000 ms CreateObjectMapping: 0.254400 ms MarkObjects: 2.028400 ms  DeleteObjects: 0.063000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002459 seconds.
+Registered in 0.003954 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.202 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.0 MB.
-System memory in use after: 187.1 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3146.
-Total: 4.256468 ms (FindLiveObjects: 0.644342 ms CreateObjectMapping: 0.397908 ms MarkObjects: 3.106286 ms  DeleteObjects: 0.103143 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002064 seconds.
-Begin MonoManager ReloadAssembly
+Symbol file data-00000168E1A4B020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E236B820 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1138020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2360CD0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA714020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E099A410 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA688010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1403010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2687E00 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA54FD70 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2556070 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEE12040 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA46C9F0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1180010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA54FD70 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF21B050 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E0BB0010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2416B50 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2941100 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+- Completed reload, in  1.650 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.2 MB.
-System memory in use after: 187.3 MB.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3149.
-Total: 3.024008 ms (FindLiveObjects: 0.356327 ms CreateObjectMapping: 0.146324 ms MarkObjects: 2.443890 ms  DeleteObjects: 0.075887 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3202.
+Total: 4.564800 ms (FindLiveObjects: 0.791000 ms CreateObjectMapping: 0.577900 ms MarkObjects: 3.127600 ms  DeleteObjects: 0.066500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003065 seconds.
+Registered in 0.005153 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000168E0984010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E237BE70 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E05FF010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2360CD0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E181A010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E09EE020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF3E2010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2D950B0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2277F50 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E00D2010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEA2C060 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA274BA0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2415260 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E22D79E0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEA86010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA814020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E274DC00 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DFE13700 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2DE3060 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
+- Completed reload, in  1.714 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.4 MB.
-System memory in use after: 187.5 MB.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3152.
-Total: 2.424309 ms (FindLiveObjects: 0.304650 ms CreateObjectMapping: 0.124302 ms MarkObjects: 1.882168 ms  DeleteObjects: 0.111588 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3205.
+Total: 2.426000 ms (FindLiveObjects: 0.357200 ms CreateObjectMapping: 0.150600 ms MarkObjects: 1.821900 ms  DeleteObjects: 0.094000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008332 seconds.
+Registered in 0.028625 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000168DA2AA010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E237BA60 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1FB1010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E281B030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA714020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1EC2010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1FD3020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1403010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2847010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DECC3030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF02C720 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF632410 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2415260 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2D3D060 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DECC3030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA545640 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E274DC00 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E237BA60 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E22F7A00 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.6 MB.
-System memory in use after: 187.7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3155.
-Total: 2.267372 ms (FindLiveObjects: 0.285073 ms CreateObjectMapping: 0.134096 ms MarkObjects: 1.777224 ms  DeleteObjects: 0.069618 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002173 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
+- Completed reload, in  1.608 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.8 MB.
-System memory in use after: 187.9 MB.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3158.
-Total: 2.445051 ms (FindLiveObjects: 0.351834 ms CreateObjectMapping: 0.202817 ms MarkObjects: 1.827943 ms  DeleteObjects: 0.061129 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3208.
+Total: 2.606600 ms (FindLiveObjects: 0.398000 ms CreateObjectMapping: 0.154300 ms MarkObjects: 1.991900 ms  DeleteObjects: 0.059900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002476 seconds.
+Registered in 0.004175 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000168E2661D90 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E236B820 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1CCB020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2DDD030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E22A8B20 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E09EE020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1FD3020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1403010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2DF3070 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2DDD030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF3E2010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA274BA0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E08A5010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2307A10 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1300630 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF709030 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E274DC00 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E26AF880 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2941100 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
+- Completed reload, in  1.675 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.0 MB.
-System memory in use after: 188.1 MB.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3161.
-Total: 2.399509 ms (FindLiveObjects: 0.340002 ms CreateObjectMapping: 0.172268 ms MarkObjects: 1.826484 ms  DeleteObjects: 0.059454 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3211.
+Total: 2.975600 ms (FindLiveObjects: 0.411900 ms CreateObjectMapping: 0.246400 ms MarkObjects: 2.250500 ms  DeleteObjects: 0.064300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002363 seconds.
+Registered in 0.004105 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000168E2661D90 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E236B820 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E303E060 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E151B020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF3E2010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF8E3010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E0B1A020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1403010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2DF3070 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E151B020 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF3E2010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DF632410 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DA46C9F0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\VSSettingsProvider.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E24FAAF0 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E1300630 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E25BB010 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168DEA94A60 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E26AF880 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000168E2941100 doesn't match image C:\Users\Daniil\Desktop\CSharpGame\TowerDefence\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
+- Completed reload, in  1.357 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.2 MB.
-System memory in use after: 188.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3164.
-Total: 2.283766 ms (FindLiveObjects: 0.304217 ms CreateObjectMapping: 0.138076 ms MarkObjects: 1.780929 ms  DeleteObjects: 0.059256 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008391 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.3 MB.
-System memory in use after: 188.5 MB.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.0 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3167.
-Total: 2.239160 ms (FindLiveObjects: 0.330886 ms CreateObjectMapping: 0.129665 ms MarkObjects: 1.705460 ms  DeleteObjects: 0.071824 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3214.
+Total: 3.590800 ms (FindLiveObjects: 0.280100 ms CreateObjectMapping: 0.127900 ms MarkObjects: 3.096400 ms  DeleteObjects: 0.084600 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002193 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2670 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.5 MB.
-System memory in use after: 188.7 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3170.
-Total: 2.638642 ms (FindLiveObjects: 0.300319 ms CreateObjectMapping: 0.142843 ms MarkObjects: 2.128422 ms  DeleteObjects: 0.065392 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -43,8 +43,9 @@ public class NodeMainScript : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (placedOn != null || player.PlayerMoney < 100)
+        if (placedOn != null || player.PlayerMoney < 50)
         {
+            Debug.Log("Δενεγ νες, hold on" + player.PlayerMoney.ToString());
             //Debug.Log("It is impossible to place another object on the current node");        
             return;
             //TO DO in a form of bubble message
@@ -52,7 +53,7 @@ public class NodeMainScript : MonoBehaviour
         var tempObj = BuildManager.Instance.WishedObject;
         Debug.Log(BuildManager.Instance);
         placedOn = Instantiate(tempObj, transform.position + new Vector3 { x = 0, y = 0.5f, z = 0}, transform.rotation);
-        player.PlayerMoney -= 100;
+        player.PlayerMoney -= 50;
+        Debug.Log(player.PlayerMoney.ToString());
     }
-
 }

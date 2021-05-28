@@ -15,7 +15,7 @@ public class EnemyScript : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
-        Debug.Log(GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>());
+        //Debug.Log(GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>());
         wayPointers = GameObject.Find("GridSpawner").GetComponent<SpanGridScript>().wayPointers;
         target = wayPointers[0].transform;
     }
@@ -43,6 +43,7 @@ public class EnemyScript : MonoBehaviour
         {
             Destroy(gameObject);
             player.PlayerHealth--;
+            Debug.Log("Çהמנמגüו" + player.PlayerHealth);
             return;
         }
 
