@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class SellTurretScript : MonoBehaviour
 {
+    private GameObject node;
+
     public void SellTurret()
     {
-        GameObject node = GameObject.FindGameObjectWithTag("UpdradingOrSelling").gameObject;
-        PlayerScript player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
+        try
+        {
+            node = GameObject.FindGameObjectWithTag("UpdradingOrSelling").gameObject;
+        }
+        catch
+        {
+            node = null;
+        }
 
         if (node == null)
             return;
-
+        PlayerScript player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
         NodeMainScript scriptOfNode = node.GetComponent<NodeMainScript>();
         Transform shopItemTemplate = scriptOfNode.shopItemTemplate;
         Transform canvas = scriptOfNode.canvas;

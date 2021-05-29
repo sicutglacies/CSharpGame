@@ -64,7 +64,5 @@ public class NodeMainScript : MonoBehaviour
             canvas.gameObject.SetActive(true);
             shopItemTemplate.gameObject.SetActive(true);
         }
-
-       
     }   
 }

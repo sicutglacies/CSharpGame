@@ -10,8 +10,8 @@ public class EnemySpanerScript : MonoBehaviour
     private float countDown = 2f;
     static private int waveCount = 3;
     static private int enemyCount = 3;
-   
-    
+
+
     void Start()
     {
         
@@ -20,6 +20,7 @@ public class EnemySpanerScript : MonoBehaviour
      void OnMouseDown()
      {
         Instantiate(Enemy, transform.position, transform.rotation);
+        EnemyRemaining += 1;
      }
 
     void Update()

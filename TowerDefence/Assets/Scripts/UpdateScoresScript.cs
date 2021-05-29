@@ -7,7 +7,6 @@ public class UpdateScoresScript : MonoBehaviour
 {
     void Update()
     {
-
         EnemySpanerScript spawner = GameObject.Find("StartBlock(Clone)").GetComponent<EnemySpanerScript>();
         PlayerScript player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
 
@@ -17,5 +16,7 @@ public class UpdateScoresScript : MonoBehaviour
         transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "Enemies Left: " + spawner.EnemyRemaining.ToString();
          transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = "Lifes Left: " + player.PlayerHealth.ToString();
 
+        if (player.PlayerHealth <= 0)
+            Application.Quit();
     }
 }
