@@ -50,21 +50,22 @@ public class UIControlScript : MonoBehaviour
         shopItem.Find("ItemName").GetComponent<TextMeshProUGUI>().SetText(itemName);
         shopItem.Find("ItemCost").GetComponent<TextMeshProUGUI>().SetText(itemCost.ToString());
         shopItem.Find("ItemImage").GetComponent<RawImage>().texture = texture;
-
         shopItem.Find("ItemDescr").GetComponent<TextMeshProUGUI>().SetText(descrText);
         
-        BuySome button =  shopItem.Find("Button").GetComponent<BuySome>();
+        BuySome button =  shopItem.Find("BuyButton").GetComponent<BuySome>();
 
-        if (type == Item.ItemType.TurretLvL1) 
-            button.tag = "LvL1";            
+        if (type == Item.ItemType.TurretLvL1)
+        {
+            button.tag = "LvL1";       
+        }
+                       
         else
         {
             shopItem.Find("ItemImage").GetComponent<RectTransform>().localScale = 
                 new Vector3(1.15375f, 1.569445f, 1.17f);
+            Destroy (shopItem.Find("UpdateButton").gameObject);
             button.tag = "LvL2";
         }
-            
-
     }
 
     public void Show()

@@ -10,6 +10,7 @@ TagManager:
   - LvL1
   - LvL2
   - Building
+  - UpdradingOrSelling
   layers:
   - Default
   - TransparentFX

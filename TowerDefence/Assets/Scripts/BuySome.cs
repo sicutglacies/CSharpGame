@@ -17,7 +17,6 @@ public class BuySome : MonoBehaviour
         Transform canvas = scriptOfNode.canvas;
         Transform shopItemTemplate = scriptOfNode.shopItemTemplate;
 
-        Debug.Log(player.PlayerMoney);
         switch (this.tag)
         {
             case "LvL1":
@@ -38,8 +37,6 @@ public class BuySome : MonoBehaviour
                 player.PlayerMoney -= Item.ReturnCost(Item.ItemType.TurretLvL2);
                 break;
         }
-
-        Debug.Log(player.PlayerMoney);
 
         node.tag = "Untagged";
         shopItemTemplate.gameObject.SetActive(false);

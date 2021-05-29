@@ -47,12 +47,22 @@ public class NodeMainScript : MonoBehaviour
 
         if (placedOn == null && player.PlayerMoney >= 50)
         {
-            if (GameObject.FindGameObjectsWithTag("Building").ToList().Count < 1)
+            if (GameObject.FindGameObjectsWithTag("Building").ToList().Count < 1
+                && GameObject.FindGameObjectsWithTag("UpdradingOrSelling").ToList().Count < 1)
                 this.transform.tag = "Building";
 
             canvas.gameObject.SetActive(true);
             shopItemTemplate.gameObject.SetActive(true);
+        }
 
+        else
+        {
+            if (GameObject.FindGameObjectsWithTag("UpdradingOrSelling").ToList().Count < 1
+                && GameObject.FindGameObjectsWithTag("Building").ToList().Count < 1)
+            this.transform.tag = "UpdradingOrSelling";
+
+            canvas.gameObject.SetActive(true);
+            shopItemTemplate.gameObject.SetActive(true);
         }
 
        

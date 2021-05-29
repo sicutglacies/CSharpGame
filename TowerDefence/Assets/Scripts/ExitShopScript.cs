@@ -6,7 +6,15 @@ public class ExitShopScript : MonoBehaviour
 {
     public void ExitShop()
     {
-        GameObject node = GameObject.FindGameObjectWithTag("Building").gameObject;
+        GameObject node = null;
+        GameObject buildingNode = GameObject.FindGameObjectWithTag("Building")?.gameObject;
+
+        node = (buildingNode != null) ?
+            GameObject.FindGameObjectWithTag("Building").gameObject
+            :
+            GameObject.FindGameObjectWithTag("UpdradingOrSelling").gameObject;
+
+        Debug.Log(node);
         NodeMainScript scriptOfNode = node.GetComponent<NodeMainScript>();
 
         Transform canvas = scriptOfNode.canvas;

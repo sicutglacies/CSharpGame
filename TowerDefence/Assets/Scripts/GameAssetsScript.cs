@@ -10,6 +10,7 @@ public class GameAssetsScript : MonoBehaviour
 
     public GameObject TurretObject_1;
     public GameObject TurretObject_2;
+    public Button UpdateButton;
 
     private static GameAssetsScript instance;
     public static GameAssetsScript Instance

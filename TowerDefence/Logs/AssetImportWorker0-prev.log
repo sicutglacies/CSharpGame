@@ -15,11 +15,11 @@ F:/CSharpGame/TowerDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63384
+49851
 Successfully changed project path to: F:/CSharpGame/TowerDefence
 F:/CSharpGame/TowerDefence
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1052.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 381.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,13 +35,623 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.034987 seconds.
+Registered in 0.022305 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1261.97 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 332.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.397 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.282 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3186.
+Total: 7.841500 ms (FindLiveObjects: 1.191400 ms CreateObjectMapping: 0.457200 ms MarkObjects: 5.927700 ms  DeleteObjects: 0.261100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.076167 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.088273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/Scripts/SpawnCanvasAndStuff.cs
+  artifactKey: Guid(c503648433f6533418f7f72c164ccd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnCanvasAndStuff.cs using Guid(c503648433f6533418f7f72c164ccd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f4d6e26498e4e88104e9a7b3964fc5') in 0.026092 seconds
+  Import took 0.038938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109049 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000667 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.011890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064198 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000769 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.013715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054193 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002175 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.023803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152025 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000617 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.013193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064712 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001403 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.028628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151826 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000780 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094757 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000959 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.016995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155744 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000986 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.012236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064853 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000632 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.012759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056453 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000658 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.015271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116179 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001044 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.062117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076083 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000728 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.015147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059108 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000855 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.017931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069589 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000671 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.012016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069062 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000630 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.012807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063018 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000637 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.011747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060579 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000655 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.013052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076385 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000741 seconds
+  ERROR: Build asset version error: assets/scripts/uicontrolscript.cs in SourceAssetDB has modification time of '2021-05-28T17:03:41.1751881Z' while content on disk has modification time of '2021-05-28T23:09:32.5754255Z'
+  Import took 0.017467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315866 seconds.
+  path: Assets/Scripts/UIControlScript.cs
+  artifactKey: Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIControlScript.cs using Guid(7829dfc8c57dbc34fb08a91e9ea4608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9561833ca2f79f28244acce3f807eb5') in 0.099028 seconds
+  Import took 0.168153 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.2 MB.
+System memory in use after: 112.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3189.
+Total: 6.133800 ms (FindLiveObjects: 0.958500 ms CreateObjectMapping: 0.406100 ms MarkObjects: 4.609200 ms  DeleteObjects: 0.156900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3192.
+Total: 8.065000 ms (FindLiveObjects: 1.427400 ms CreateObjectMapping: 0.497200 ms MarkObjects: 5.945800 ms  DeleteObjects: 0.191100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3195.
+Total: 6.942200 ms (FindLiveObjects: 1.457800 ms CreateObjectMapping: 0.452500 ms MarkObjects: 4.868400 ms  DeleteObjects: 0.153500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3198.
+Total: 6.889700 ms (FindLiveObjects: 1.070800 ms CreateObjectMapping: 0.603500 ms MarkObjects: 5.054100 ms  DeleteObjects: 0.158000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.461 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3201.
+Total: 7.597100 ms (FindLiveObjects: 0.998900 ms CreateObjectMapping: 0.422200 ms MarkObjects: 5.989000 ms  DeleteObjects: 0.183500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.294 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3204.
+Total: 6.527200 ms (FindLiveObjects: 1.109100 ms CreateObjectMapping: 0.499500 ms MarkObjects: 4.749800 ms  DeleteObjects: 0.164700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3207.
+Total: 6.827200 ms (FindLiveObjects: 0.968700 ms CreateObjectMapping: 0.408200 ms MarkObjects: 5.286700 ms  DeleteObjects: 0.160500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.195 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 6.252400 ms (FindLiveObjects: 0.960900 ms CreateObjectMapping: 0.405700 ms MarkObjects: 4.699400 ms  DeleteObjects: 0.183300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.446 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3213.
+Total: 7.017500 ms (FindLiveObjects: 1.074300 ms CreateObjectMapping: 0.660100 ms MarkObjects: 5.098000 ms  DeleteObjects: 0.181800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.047 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3216.
+Total: 7.982800 ms (FindLiveObjects: 1.047100 ms CreateObjectMapping: 0.500600 ms MarkObjects: 6.203300 ms  DeleteObjects: 0.228000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 6.682800 ms (FindLiveObjects: 1.056900 ms CreateObjectMapping: 0.500400 ms MarkObjects: 4.963200 ms  DeleteObjects: 0.159500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.365 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 6.215100 ms (FindLiveObjects: 0.992000 ms CreateObjectMapping: 0.407000 ms MarkObjects: 4.647200 ms  DeleteObjects: 0.165300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.178 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.3 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3225.
+Total: 7.373200 ms (FindLiveObjects: 0.976000 ms CreateObjectMapping: 0.408800 ms MarkObjects: 5.761200 ms  DeleteObjects: 0.223900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1318.211640 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(86de5a073520424449156a686ae409fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(86de5a073520424449156a686ae409fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0defce876a4d443cc8172a0dff1527b') in 0.716673 seconds
+  Import took 0.731479 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.917 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3228.
+Total: 6.383000 ms (FindLiveObjects: 1.012600 ms CreateObjectMapping: 0.481200 ms MarkObjects: 4.684500 ms  DeleteObjects: 0.200600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.129 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3231.
+Total: 6.601600 ms (FindLiveObjects: 1.131500 ms CreateObjectMapping: 0.463600 ms MarkObjects: 4.837700 ms  DeleteObjects: 0.165200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.554 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3234.
+Total: 6.660000 ms (FindLiveObjects: 1.038400 ms CreateObjectMapping: 0.483900 ms MarkObjects: 4.966000 ms  DeleteObjects: 0.167800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
