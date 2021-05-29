@@ -6,7 +6,11 @@ TagManager:
   tags:
   - Enemy
   - Plitka
-  - PlayerTag
+  - CanvasTag
+  - LvL1
+  - LvL2
+  - Building
+  - UpdradingOrSelling
   layers:
   - Default
   - TransparentFX

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.Linq;
 
 /// <summary>
 /// Controls the main behaviour of nodes
@@ -9,51 +9,60 @@ using UnityEngine;
 public class NodeMainScript : MonoBehaviour
 {
     public int ID;
-    public Color defaultColor;
+
+    public GameObject placedOn;
+    public Transform shopItemTemplate;
+    public Transform canvas;
     public Color changedColor;
-    //public GameObject thisObject;
-
-    private Renderer quickRend;
-    private GameObject placedOn;
+   
+    private Color defaultColor;
+    private Renderer quickRend; 
     private PlayerScript player;
+    
 
-    void Start()
+    void Awake()
     {
-        player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
         quickRend = GetComponent<Renderer>();
-
-        ColorUtility.TryParseHtmlString("#9D9F9F", out defaultColor);
+        ColorUtility.TryParseHtmlString("#E6ECEC", out defaultColor);
         ColorUtility.TryParseHtmlString("#222525", out changedColor);
-
         quickRend.material.color = defaultColor;
-        //thisObject = this.gameObject;
+
+        player = GameObject.Find("GridSpawner").GetComponentInChildren<PlayerScript>();
+        canvas = GameObject.Find("UI").transform.Find("Canvas(Clone)");
+        shopItemTemplate = canvas.Find("UIShop").Find("Container");
     }
 
     void OnMouseEnter()
     {
-        //Debug.Log("Entered");
         quickRend.material.color = changedColor;
     }
 
     void OnMouseExit()
     {
-        //Debug.Log("Exited");
         quickRend.material.color = defaultColor;
     }
 
     void OnMouseDown()
-    {
-        if (placedOn != null || player.PlayerMoney < 50)
+    {  
+
+        if (placedOn == null && player.PlayerMoney >= 50)
         {
-            Debug.Log("Δενεγ νες, hold on" + player.PlayerMoney.ToString());
-            //Debug.Log("It is impossible to place another object on the current node");        
-            return;
-            //TO DO in a form of bubble message
+            if (GameObject.FindGameObjectsWithTag("Building").ToList().Count < 1
+                && GameObject.FindGameObjectsWithTag("UpdradingOrSelling").ToList().Count < 1)
+                this.transform.tag = "Building";
+
+            canvas.gameObject.SetActive(true);
+            shopItemTemplate.gameObject.SetActive(true);
         }
-        var tempObj = BuildManager.Instance.WishedObject;
-        Debug.Log(BuildManager.Instance);
-        placedOn = Instantiate(tempObj, transform.position + new Vector3 { x = 0, y = 0.5f, z = 0}, transform.rotation);
-        player.PlayerMoney -= 50;
-        Debug.Log(player.PlayerMoney.ToString());
-    }
+
+        else
+        {
+            if (GameObject.FindGameObjectsWithTag("UpdradingOrSelling").ToList().Count < 1
+                && GameObject.FindGameObjectsWithTag("Building").ToList().Count < 1)
+            this.transform.tag = "UpdradingOrSelling";
+
+            canvas.gameObject.SetActive(true);
+            shopItemTemplate.gameObject.SetActive(true);
+        }
+    }   
 }

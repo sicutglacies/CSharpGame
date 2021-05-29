@@ -109,6 +109,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  defaultColor: {r: 0, g: 0, b: 0.9433962, a: 1}
-  changedColor: {r: 1, g: 0.033018887, b: 0.033018887, a: 1}
-  thisObject: {fileID: 0}
+  canvas: {fileID: 4622144366004973929, guid: 86de5a073520424449156a686ae409fa, type: 3}

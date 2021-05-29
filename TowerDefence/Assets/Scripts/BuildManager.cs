@@ -11,13 +11,15 @@ public class BuildManager : MonoBehaviour
     public GameObject DefaultObject;
     public GameObject WishedObject { set; get; }
 
-    void Start()
-    {
-        WishedObject = DefaultObject;
-    }
     void Awake()
     {
         Instance = this;
     }
+
+    void Start()
+    {
+        WishedObject = DefaultObject;
+    }
+    
 
 }
